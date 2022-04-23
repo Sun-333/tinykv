@@ -22,6 +22,8 @@ const (
 
 var CFs [3]string = [3]string{CfDefault, CfWrite, CfLock}
 
+
+
 func (wb *WriteBatch) Len() int {
 	return len(wb.entries)
 }
